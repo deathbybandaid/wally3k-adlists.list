@@ -1,11 +1,11 @@
-## Pi-hole ad-list default sources. Updated 29/10/2016 #########################
+## Pi-hole ad-list sources. Updated 06/04/2017 #########################
 ## Duplicates were removed and are under Wally3k section                      ##
 ##____________________________________________________________________________##
 ## If you are having trouble with a list,                                     ##
 ## You can always uncomment a list, and rerun "pihole -g"                     ##
 ## The blacklist is generated fresh EVERY time                                ##
 ################################################################################
-# The below list amalgamates several lists we used previously.
+# The below list amalgamates several lists used previously.
 # See `https://github.com/StevenBlack/hosts` for details
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 ##
@@ -62,6 +62,9 @@ https://hosts-file.net/ad_servers.txt
 # ✔ AdAway
 #https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
 ##
+# ✔ Adguard DNS
+#http://v.firebog.net/hosts/AdguardDNS.txt
+##
 # ✔ Disconnect Ads
 #https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 ##
@@ -71,10 +74,10 @@ https://hosts-file.net/ad_servers.txt
 # ✔ Easylist
 #http://v.firebog.net/hosts/Easylist.txt
 ##
-# Steven Blacks Spotify Ads
+# ✔ Steven Blacks Spotify Ads
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/data/SpotifyAds/hosts
 ##
-# Steven Blacks Unchecky Ads
+# ✔ Steven Blacks Unchecky Ads
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
 ##----------------------------------------------------------------------------##
 ## Tracking & Telemetry Lists:
@@ -88,11 +91,14 @@ https://hosts-file.net/ad_servers.txt
 # ✔ Quidsup Trackers
 #https://raw.githubusercontent.com/quidsup/notrack/master/trackers.txt
 ##
-# Steven Blacks Trackers
+# ✔ Steven Blacks Trackers
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.2o7Net/hosts
 ##
-# Steven Blacks Microsoft Telemetry
+# ✔ Steven Blacks Microsoft Telemetry
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/data/tyzbit/hosts
+##
+# Samsung SmartTV Domains
+#http://v.firebog.net/hosts/static/SamsungSmart.txt
 ##
 ## Malicious Lists:
 ##
@@ -132,17 +138,29 @@ https://hosts-file.net/ad_servers.txt
 # ✔ Ransomware Tracker
 #https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt
 ##
-# Steven Blacks Risky Hosts
-#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Risk/hosts
-##
 # Shalla Malicious
 #http://v.firebog.net/hosts/Shalla-mal.txt
+##
+# Steven Blacks Risky Hosts
+#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Risk/hosts
 ##
 # ✔ Zeus Tracker
 #https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
 ##
 ##----------------------------------------------------------------------------##
 ## Suspicious Lists:
+##
+# ✔ hpHosts Spam
+#https://hosts-file.net/grm.txt
+##
+# ✔ ReddestDream
+#https://raw.githubusercontent.com/ReddestDream/reddestdream.github.io/master/Projects/MinimalHosts/etc/MinimalHostsBlocker/minimalhosts
+##
+# ✔ Steven Blacks KAD
+#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts
+##
+# ✔ Steven Blacks Spammers
+#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts
 ##
 # Bill Stearn
 #http://v.firebog.net/hosts/BillStearns.txt
@@ -153,34 +171,14 @@ https://hosts-file.net/ad_servers.txt
 # DSHEILD Suspicious
 #https://www.dshield.org/feeds/suspiciousdomains_Low.txt
 ##
-# Elad Karako
-#https://raw.githubusercontent.com/eladkarako/hosts.eladkarako.com/master/_raw__hosts.txt
+# Kowabit BoD
+#http://v.firebog.net/hosts/Kowabit.txt
 ##
 # Joe Wein
 #http://www.joewein.net/dl/bl/dom-bl-base.txt
 ##
-# Mahakala
-# Has been known to block legitimate domains including the entire .com range.
-# Warning: Due to the sheer size of this list, the web admin console will be unresponsive.
-#https://adblock.mahakala.is
-##
-# hpHosts Spam
-#https://hosts-file.net/grm.txt
-##
-# Andy Short
-#http://hostsfile.mine.nu/hosts0.txt
-##
 # Piwik Referrer Spam
 #https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt
-##
-# ReddestDream
-#https://raw.githubusercontent.com/ReddestDream/reddestdream.github.io/master/Projects/MinimalHosts/etc/MinimalHostsBlocker/minimalhosts
-##
-# Steven Blacks KAD
-#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts
-##
-# Steven Blacks Spammers
-#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts
 ##
 # SecureMecca
 # Also blocks "adult" sites (pornography/gambling etc)
@@ -197,4 +195,16 @@ https://hosts-file.net/ad_servers.txt
 ##
 # Winhelp2002 MVPS
 #http://winhelp2002.mvps.org/hosts.txt
+##
+# X Andy Short
+#http://hostsfile.mine.nu/hosts0.txt
+##
+# X Elad Karako
+#https://raw.githubusercontent.com/eladkarako/hosts.eladkarako.com/master/_raw__hosts.txt
+##
+# X Mahakala
+# Has been known to block legitimate domains including the entire .com range.
+# Warning: Due to the sheer size of this list, the web admin console will be unresponsive.
+#https://adblock.mahakala.is
+##
 ################################################################################
