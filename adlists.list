@@ -42,6 +42,22 @@ https://hosts-file.net/ad_servers.txt
 # See https://github.com/mat1th/Dns-add-block for more information.
 #https://raw.githubusercontent.com/mat1th/Dns-add-block/master/hosts
 ################################################################################
+## Deathbybandaid' added Lists                                                ##
+https://raw.githubusercontent.com/HenningVanRaumle/pihole-ytadblock/master/ytadblock.txt
+#https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Dead/hosts
+3https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+#https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+#https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
+#https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
+#https://raw.githubusercontent.com/FadeMind/hosts.extras/master/SpotifyAds/hosts
+#https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts
+#https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
+#http://hosts-file.net/fsa.txt
+#http://hosts-file.net/mmt.txt
+#https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win7/spy.txt
+#https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win81/spy.txt
+#https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win10/spy.txt
+################################################################################
 ## Below is Wally3k's lists                                                   ##
 ## The Default Pihole Lists should get you near 100K Domains                  ##
 ## The non-"suspicious" lists should get you 400k-500k                        ##
