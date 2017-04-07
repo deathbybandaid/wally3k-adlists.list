@@ -43,9 +43,9 @@ https://hosts-file.net/ad_servers.txt
 #https://raw.githubusercontent.com/mat1th/Dns-add-block/master/hosts
 ################################################################################
 ## Deathbybandaid' added Lists                                                ##
-https://raw.githubusercontent.com/HenningVanRaumle/pihole-ytadblock/master/ytadblock.txt
+#https://raw.githubusercontent.com/HenningVanRaumle/pihole-ytadblock/master/ytadblock.txt
 #https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Dead/hosts
-3https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+#https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 #https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 #https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
 #https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
